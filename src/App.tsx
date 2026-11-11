@@ -8,21 +8,20 @@ import { autoGravity } from "@cloudinary/url-gen/qualifiers/gravity";
 import { cld, uploadPreset } from "./cloudinary/config";
 import { UploadWidget } from "./cloudinary/UploadWidget";
 import type { CloudinaryUploadResult } from "./cloudinary/UploadWidget";
-import "./index.css";
 import Home from "./pages/Home";
 
-const hasUploadPreset = Boolean(uploadPreset);
+// const hasUploadPreset = Boolean(uploadPreset);
 
-const PROMPTS_WITH_UPLOAD = [
-  "Create an image gallery with lazy loading and responsive images",
-  "Create a video player that plays a Cloudinary video",
-  "Add image overlays with text or logos",
-];
+// const PROMPTS_WITH_UPLOAD = [
+//   'Create an image gallery with lazy loading and responsive images',
+//   'Create a video player that plays a Cloudinary video',
+//   'Add image overlays with text or logos',
+// ];
 
-const PROMPTS_WITHOUT_UPLOAD = [
-  "Let's try uploading — help me add an upload preset and upload widget",
-  ...PROMPTS_WITH_UPLOAD,
-];
+// const PROMPTS_WITHOUT_UPLOAD = [
+//   "Let's try uploading — help me add an upload preset and upload widget",
+//   ...PROMPTS_WITH_UPLOAD,
+// ];
 
 function App() {
   // const [uploadedImageId, setUploadedImageId] = useState<string | null>(null);
